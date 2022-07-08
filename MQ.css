@@ -1,24 +1,41 @@
 @media screen and (max-width: 500px) {
-
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    
+    /* Header */
+    #navbar {
+        margin: 0px 5px;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
     #left {
         font-size: 1rem;
+        margin-top: 10px;
     
     }
+    
     .right {
         display: flex;
         width: auto;
-        /* justify-content: space-between; */
+        justify-content: space-between;
     }
+    
     .list {
         display: flex;
     }
     
     .names {
+        width: 38px;
         list-style: none;
-        width: 20px;
         padding: 0px;
-        font-size: 10px;
+        margin: 15px 5px;
         border-bottom: none;
+        font-size: 0.5rem;
         transition: border-bottom 250ms ease-in-out;
     }
     
@@ -26,10 +43,17 @@
         border-bottom: 3px solid black;
         cursor: pointer;
     }
+    
     .sm-links {
-        width: 0px;
-        overflow: hidden;
+        margin: 12px 5px;
+        width: 100px;
+        display:none;
     }
+    
+    #line {
+        margin: 0px;
+    }
+    
     /* Main body */
 
 .section-2 {
@@ -197,6 +221,9 @@
     display: flex;
     flex-direction: column;
     margin-left: 5vw;
+}
+.login-right img{
+    display: none;
 }
 
 .login-head {
