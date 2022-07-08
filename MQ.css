@@ -239,7 +239,7 @@
 }
 
 .login-right img {
-    width: 0%;
+    display: none;
 }
 
 /* Feedback */
