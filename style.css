@@ -55,8 +55,8 @@
 
 .section-2 {
     display: flex;
-    justify-content: space-between;
-    padding: 30px;
+    justify-content: space-around;
+    padding: 10px 50px;
     flex-wrap: wrap;
 }
 
@@ -66,15 +66,17 @@
     margin-top: 100px;
     width: 500px;
     padding: 10px;
+    font-size: 1.5rem;
 }
 
 .btn1 {
-    width: 150px;
-    height: 50px;
-    padding: 10px;
+    width: 200px;
+    height: 60px;
+    /* padding: 10px; */
     background-color: black;
     color: white;
     text-decoration: none;
+    border-radius: 5px;
 }
 
 .c-right {
@@ -91,8 +93,8 @@
 .section-3{
     display: flex;
     height: auto;
-    padding: 30px;
-    margin: 20px 0px;
+    padding: 10px 50px;
+    margin: 100px 0px;
     justify-content: space-around;
     flex-wrap: wrap;
 }
@@ -100,6 +102,9 @@
 .section-3-img{
     width: 400px;
     height: 400px;
+}
+.right-3{
+    font-size: 1.5rem;
 }
 .btn-section-3{
     display: flex;
@@ -113,7 +118,7 @@
     width: 500px;
 }
 
-.section3 {
+.section-4 {
     display: flex;
     flex-wrap: wrap;
     height: auto;
@@ -126,25 +131,32 @@
     height: 150px;
     margin-bottom: 20px;
 }
+.card-title{
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
 
 .card-text {
-    font-size: .8rem;
+    font-size: 1.4rem;
     margin-bottom: 40px;
 }
 
 .box {
     display: flex;
+    width: 500px;
+    margin: 0px 15px;
 }
 
 #card1 {
     width: 500px;
     justify-content: center;
     align-items: center;
+    font-size: 2rem;
     flex-direction: column;
 }
 
 .same {
-    width: 300px;
+    width: 400px;
     padding: 20px;
     flex-direction: column;
     border-top-right-radius: 25px;
@@ -163,8 +175,8 @@
 }
 
 .c-btn {
-    width: 150px;
-    height: 45px;
+    width: 200px;
+    height: 60px;
     padding: 7px;
 }
 
@@ -178,17 +190,18 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin: 100px 0px;
 }
 
 #team-head {
     text-align: center;
-    font-size: 3rem;
-    margin: 50px 0px;
+    font-size: 5rem;
+    margin: 80px 0px;
     text-decoration: underline;
 }
 
 .section-5 h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .profile {
@@ -217,6 +230,9 @@
     flex-direction: column;
     margin-left: 5vw;
 }
+.login-right img{
+    display: none;
+}
 
 .login-head {
     font-size: 3rem;
@@ -240,7 +256,7 @@
 /* Feedback */
 .feedback-head {
     font-weight: bolder;
-    margin: 100px 20px;
+    margin: 100px 60px;
     font-size: 3.3rem;
 }
 
@@ -255,7 +271,7 @@
     width:300px;
     height: auto;
     padding: 20px;
-    margin: 10px 20px;
+    margin: 10px 40px;
     flex-direction: column;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -305,7 +321,7 @@
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: auto auto;
-    grid-gap: 100px 80px;
+    grid-gap: 100px 60px;
     justify-content: center;
 }
 
@@ -317,6 +333,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 30px;
+    margin: 0px 50px;
     filter: drop-shadow(0px 10px 7px black);
     background-color: rgb(243, 239, 239);
 }
