@@ -226,12 +226,8 @@
     width: 50vw;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     flex-direction: column;
     margin-left: 5vw;
-}
-.login-right img{
-    display: none;
 }
 
 .login-head {
