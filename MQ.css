@@ -239,6 +239,9 @@
     border-bottom-right-radius: 25px;
     filter: drop-shadow(5px 10px 5px black);
 }
+.f-box p{
+    font-size: 0.8rem;
+}
 
 #f-box1 {
     background-color: black;
@@ -255,9 +258,9 @@
 }
 
 .f-btn {
-    width: 120px;
-    height: 40px;
-    font-size: 1.2rem;
+    width: 105px;
+    height: 30px;
+    font-size: 0.8rem;
     border-radius: 5px;
 }
 
@@ -274,16 +277,16 @@
 }
 .blog-head {
     font-weight: bolder;
-    margin: 100px 20px;
+    margin: 30px 20px;
     font-size: 3.3rem;
     text-align: center;
 }
 
 .blog-card {
     display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: auto auto;
-    grid-gap: 100px 80px;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-gap: 30px 0px;
     justify-content: center;
 }
 
@@ -294,15 +297,19 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 30px;
+    padding: 10px;
+    margin: 0px 40px;
     filter: drop-shadow(0px 10px 7px black);
     background-color: rgb(243, 239, 239);
 }
+.blog-box p{
+    font-size: 0.8rem;
+}
 
 .blog-btn {
-    width: 170px;
-    height: 60px;
-    font-size: 1.2rem;
+    width: 100px;
+    height: 30px;
+    font-size: 0.8rem;
     font-weight: bold;
     border-radius: 5px;
     margin: 20px 0px;
@@ -314,8 +321,8 @@
 }
 
 .blog-more-btn {
-    width: 180px;
-    height: 60px;
+    width: 160px;
+    height: 40px;
     margin: 50px 50px;
     background-color: black;
     color: white;
